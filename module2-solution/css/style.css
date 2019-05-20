@@ -1,0 +1,113 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+ 
+}
+body{
+	margin:1%;
+	padding: 1%;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.row{
+	width: 100%;
+
+}  
+
+section{
+ padding:3%;
+ height: 150px;
+ border:2px solid black;
+ margin:1%;
+ background-color: grey;
+ position: relative;
+ overflow: auto;
+ margin-bottom: 1%;
+ 
+ 
+}
+
+
+ .p1{
+	width:80px;
+	height: 30px;
+	background-color:orange;
+	border: 1px solid black;
+	position:absolute;
+	top: 0;
+	right:0;
+}
+
+ .p2{
+	width:80px;
+	height: 30px;
+	background-color:brown;
+	border: 1px solid black;
+	position:absolute;
+	top: 0;
+	right:0;
+}
+
+ .p3{
+	width:80px;
+	height: 30px;
+	background-color:yellow;
+	border: 1px solid black;
+	position:absolute;
+	top: 0;
+	right:0;
+}
+
+
+
+
+@media (min-width: 992px) {
+	
+		.larg1, .larg2, .larg3{
+			float:left;			
+	}
+
+  .larg1{
+    width: 31.3%;
+    
+  }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.med1,.med3{
+		float:left;
+	}
+  .med1{
+    width: 48%;
+    
+  }
+
+  .med3{
+    width: 98%;
+  }
+  
+
+}
+
+ @media (max-width: 767px){
+
+.sm1{
+	float:left;
+	width:100%;
+}
+
+}
+
+
+
+	
+
